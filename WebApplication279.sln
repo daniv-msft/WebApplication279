@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33127.37
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication279", "WebApplication279\WebApplication279.csproj", "{507F82EA-7F5E-4FC3-A1DE-1501727A026F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Workflows", "Workflows", "{A5691979-23AE-4635-BCD0-00F2A66AD396}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\build-9cbcb.yaml = .github\workflows\build-9cbcb.yaml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{507F82EA-7F5E-4FC3-A1DE-1501727A026F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{507F82EA-7F5E-4FC3-A1DE-1501727A026F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{507F82EA-7F5E-4FC3-A1DE-1501727A026F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{507F82EA-7F5E-4FC3-A1DE-1501727A026F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9D90F447-312F-4CEA-9396-BC645AE32F38}
+	EndGlobalSection
+EndGlobal
