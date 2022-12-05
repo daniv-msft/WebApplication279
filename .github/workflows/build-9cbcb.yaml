@@ -62,3 +62,10 @@ jobs:
         appSourcePath: ${{ github.workspace }}
         acrName: timheueracr
         containerAppName: my-demo-api
+
+    - name: Upload generated Dockerfile
+      if: always()
+      uses: actions/upload-artifact@v3
+      with:
+        name: generated-dockerfile
+        path: ${{ github.workspace }}/Dockerfile
