@@ -60,7 +60,7 @@ jobs:
       uses: azure/container-apps-deploy-action@main
       with:
         appSourcePath: ${{ github.workspace }}
-        acrName: timheueracr
+        acrName: danivmytestacr
         containerAppName: my-demo-api
 
     - name: Upload generated Dockerfile
